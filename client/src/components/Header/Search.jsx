@@ -11,7 +11,8 @@ display:flex;
 `
 const SearchIconWrapper=styled(Box)`
 color:blue;
-padding:5px;`
+padding:5px;
+display:flex;`
 
 const InputSearchBase=styled(InputBase)`
 padding-left:20px;
