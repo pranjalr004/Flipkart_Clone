@@ -2,15 +2,16 @@ import { Box } from '@mui/material';
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
+import ContextProvider from './context/ContextProvider';
 
 function App() {
   return (
-    <div>
+    <ContextProvider>
       <Header/>
-      <Box style={{marginTop:54}}>
       <Home/>
+      <Box style={{marginTop:54}}>
       </Box>
-    </div>
+    </ContextProvider>
   );
 }
 
