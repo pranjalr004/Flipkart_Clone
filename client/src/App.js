@@ -8,8 +8,8 @@ function App() {
   return (
     <ContextProvider>
       <Header/>
-      <Home/>
       <Box style={{marginTop:54}}>
+      <Home/>
       </Box>
     </ContextProvider>
   );
