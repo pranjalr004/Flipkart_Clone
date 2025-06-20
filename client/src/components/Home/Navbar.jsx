@@ -14,10 +14,10 @@ font-family:inherit;`
 const Component=styled(Box)(({theme})=>({
   display:'flex',
   justifyContent:'space-between',
-  margin:'55px 130px 0 130px !important',
-  overflowY:'overlay',
+  margin:'55px 130px 0 130px',
+  overflowY:'hidden',
   [theme.breakpoints.down('lg')]:{
-    margin:'0px !important'
+    margin:0
   }
 }))
 
